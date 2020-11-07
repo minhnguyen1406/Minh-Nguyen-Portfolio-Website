@@ -1,248 +1,203 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Minh Nguyen | Front-End Developer</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script
-      src="https://kit.fontawesome.com/836a943e18.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
-  </head>
-  <body>
-    <header>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Minh Nguyen | Front-End Developer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <script src="https://kit.fontawesome.com/836a943e18.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="nav-brand">
+          <a href="index.html">
+            <img src="images/even-smaller-logo.png" alt="Web Crawler" />
+          </a>
+        </div>
+        <div class="burger-menu-icon">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#landing-page">
+              <img src="images/profile-pic.jpg" alt="Minh Nguyen" class="profile-pic nav-link" />
+              <span class="caption nav-link">Minh Nguyen</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#services" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section id="landing-page" class="landing-page">
       <div class="container">
-        <nav>
-          <div class="nav-brand">
-          </div>
-          <div class="burger-menu-icon">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-          </div>
-          <ul class="nav-list">
-            <li class="nav-item">
-              <a href="#landing-page">
-                <img
-                  src="images/profile-pic.jpg"
-                  alt="Minh Nguyen"
-                  class="profile-pic nav-link"
-                />
-                <span class="caption nav-link">Minh Nguyen</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="#about" class="nav-link">About</a>
-            </li>
-            <li class="nav-item">
-              <a href="#services" class="nav-link">Services</a>
-            </li>
-            <li class="nav-item">
-              <a href="#projects" class="nav-link">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a href="#contact" class="nav-link">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" target="_blank" class="nav-link">
-                <i class="fab fa-youtube"></i>
-              </a>
-              <a href="#" target="_blank" class="nav-link">
-                <i class="fab fa-dev"></i>
-              </a>
-              <a href="#" target="_blank" class="nav-link">
-                <i class="fab fa-twitter"></i>
-              </a>
-            </li>
+        <div class="main-message">
+          <h2>Minh Nguyen</h2>
+          <h3>{Full Stack Developer}</h3>
+          <p>Html . CSS . JavaScript . C# .NET . SQL Server</p>
+          <div class="intro-btn">
             <div class="cta">
-              <a href="#" target="_blank" class="btn nav-link">Buy Me Coffee</a>
+              <a href="#contact" class="btn">Get In Touch</a>
             </div>
-          </ul>
-        </nav>
+            <div class="cta">
+              <a href="#projects" class="btn">My Projects</a>
+            </div>
+          </div>
+          <div>
+            <a href="#about" class="scroll-down">
+              <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
       </div>
-    </header>
-    <main>
-      <section id="landing-page" class="landing-page">
-        <div class="container">
-          <div class="main-message">
-            <h2>Minh Nguyen</h2>
-            <h3>{Full Stack Developer}</h3>
-            <p>Html . CSS . JavaScript . C# .NET . SQL Server</p>
-            <div class="intro-btn">
-              <div class="cta">
-                <a href="#contact" class="btn">Get In Touch</a>
-              </div>
-              <div class="cta">
-                <a href="#projects" class="btn">My Projects</a>
-              </div>
-            </div>
-            <div>
-              <a href="#about" class="scroll-down">
-                <i class="fa fa-chevron-down" aria-hidden="true"></i>
-              </a>
-            </div>
-          </div>
+    </section>
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about-img">
+          <img src="images/profile-pic.jpg" alt="Minh Nguyen" class="about-pic" />
         </div>
-      </section>
-      <section id="about" class="about">
-        <div class="container">
-          <div class="about-img">
-            <img
-              src="images/profile-pic.jpg"
-              alt="Minh Nguyen"
-              class="about-pic"
-            />
-          </div>
-          <div class="about-text-box">
-            <h2>Hello 👋🏽</h2>
-            <p>
-              My name is Minh Nguyen.
-            </p>
-            <p>
-              
-            </p>
-            <p>
-              
-            </p>
-          </div>
+        <div class="about-text-box">
+          <h2>Hello 👋🏽</h2>
+          <p>
+            My name is Minh Nguyen. I'm a passionate full stack developer who has 5-6 years of experience in the field.
+            Please reach out to me if you want some help with your project.
+          </p>
         </div>
-        <hr />
-      </section>
-      <section id="services" class="services">
-        <div class="container">
-          <div class="title-heading">
-            <h2>DIGITIZE YOUR BUSINESS</h2>
-            <p>
-              i will help you to create a remarkable first impression with
-              creative designs
-            </p>
-          </div>
-          <div class="service-tiers">
-            <div class="tier-item">
-              <i class="fa fa-code" aria-hidden="true"></i>
-              <h2>Web Development</h2>
-              <p>
-                
-              </p>
-            </div>
-            <div class="tier-item">
-              <i class="fa fa-mobile" aria-hidden="true"></i>
-              <h2>Responsive Design</h2>
-              <p>
-                
-              </p>
-            </div>
-            <div class="tier-item">
-              <i class="fa fa-file-code-o" aria-hidden="true"></i>
-              <h2>.NET</h2>
-              <p>
-                
-              </p>
-            </div>
-          </div>
-        </div>
-        <hr />
-      </section>
-      <section id="projects" class="projects">
+      </div>
+      <hr />
+    </section>
+    <section id="services" class="services">
+      <div class="container">
         <div class="title-heading">
-          <h2>PROJECTS</h2>
-          <p>these are some of my recent projects</p>
+          <h2>DIGITIZE YOUR BUSINESS</h2>
+          <p>
+            Move away from the pen and paper work hassle and start building your business online
+          </p>
         </div>
-        <div class="project-item">
-
-          <div class="project-description">
-            <h2>Project Progress Management System</h2>
+        <div class="service-tiers">
+          <div class="tier-item">
+            <i class="fa fa-code" aria-hidden="true"></i>
+            <h2>Web Development</h2>
             <p>
+              <b>Web development</b> is the work involved in developing a Web site for the Internet (World Wide Web) or
+              an intranet (a private network).
+              Web development can range from developing a simple single static page of plain text to complex Web-based
+              Internet applications (Web apps), electronic businesses, and social network services
             </p>
-            <a href="#" class="project-link" target="_blank"
-              ><i class="fa fa-github" aria-hidden="true"> View Code</i></a
-            >
+          </div>
+          <div class="tier-item">
+            <i class="fa fa-mobile" aria-hidden="true"></i>
+            <h2>Responsive Design</h2>
+            <p>
+              <b>Responsive Design</b> is the approach that suggests that design and development should respond to the
+              user’s behavior and environment based on screen size, platform and orientation.
+              The practice consists of a mix of flexible grids and layouts, images and an intelligent use of CSS media
+              queries.
+            </p>
+            <br />
+            <br />
+          </div>
+          <div class="tier-item">
+            <i class="fa fa-database" aria-hidden="true"></i>
+            <h2>Database Management</h2>
+            <p>
+              <b>Database management</b> refers to the actions a business takes to manipulate and control data to meet
+              necessary conditions throughout the entire data lifecycle.
+              The tasks utilize relational database language such as MySQL, SQL Server, or MongoDB to organize to
+              structure of the data.
+            </p>
+            <br />
+            <br />
           </div>
         </div>
-
-        <div class="project-item">
-          <div class="project-description has-margin-right">
-            <h2>To-do App</h2>
-            <p>
-            </p>
-            <a href="#" class="project-link" target="_blank"
-              ><i class="fa fa-github" aria-hidden="true"> View Code</i></a
-            >
-          </div>
-
+      </div>
+      <hr />
+    </section>
+    <section id="projects" class="projects">
+      <div class="title-heading">
+        <h2>PROJECTS</h2>
+        <p>These are some of my recent projects</p>
+      </div>
+      <div class="project-item">
+        <div class="project-description">
+          <h2>Volunteer Management System</h2>
+          <p>
+            This is a volunteer management system for clinical purposes. It allows user to perform CRUD operations
+            e.g adding or removing volunteer, schedule slots from the database. Admin must register and login to use
+            this app with administrative privileges. Volunteer users can only schedule slots for themselves, and they are not
+            authorized to access more data than of their own. The development utilize HTML, CSS, JavaScript, RESTful API, and SQL Server.
+          </p>
+          <a href="https://github.com/mercy-clinic/mercy-clinic" class="project-link" target="_blank"><i class="fa fa-github" aria-hidden="true"> View Code</i></a>
         </div>
+      </div>
 
-        <div class="project-item">
-
-          <div class="project-description">
-            <h2>Calculator</h2>
-            <p>
-            </p>
-            <a href="#" class="project-link" target="_blank"
-              ><i class="fa fa-github" aria-hidden="true"> View Code</i></a
-            >
-          </div>
+      <div class="project-item">
+        <div class="project-description">
+          <h2>Telephone Directory App</h2>
+          <p>
+            This is a telephone directory app. Users need to register and login to use the app. Users can view their profile, and update it if needed.
+            They can also perform CRUD operations for their contacts. Each user can only view his/her own contacts.
+            Admin user can view all user profiles and is also the only one can remove the user from the database.
+            The development utilize HTML, CSS, ASP.NET MVC, and SQL Server.
+          </p>
+          <a href="https://github.com/satya-beacon/Team-A/tree/Minh-Telphone-Directory-ASP.NET-MVC/Minh's%20workspace" class="project-link" target="_blank"><i class="fa fa-github" aria-hidden="true"> View Code</i></a>
         </div>
-        <hr />
-      </section>
-      <section id="contact" class="contact">
-        <h2>Get In Touch</h2>
+      </div>
+      <hr />
+    </section>
+    <section id="contact" class="contact">
+      <h2>Get In Touch</h2>
+      <p>
+        I'd love if you reached out to me. Drop me a message and I'll response ASAP. Thank you for visiting my website!
+      </p>
+      <p>
+        <i>
+        Thank you for visiting my website!</i>
+      </p>
+      <div class="container">
         <p>
-          I'd love if you reached out to me. Even if it's just to say "Hey!".
-          Don't hesitate! Drop me a line and I’ll get back to you ASAP!
+          <a href="mailto:ntm1406@gmail.com"><i class="fas fa-envelope-open"></i> ntm1406@gmail.com</a>
         </p>
+      </div>
+      <hr />
+    </section>
+    <footer>
+      <div class="footer-nav">
+        <a href="#landing-page" class="footer-nav-link">Home</a>
+        <a href="#about" class="footer-nav-link">About</a>
+        <a href="#services" class="footer-nav-link">Services</a>
+        <a href="projects" class="footer-nav-link">Projects</a>
+        <a href="#contact" class="footer-nav-link">Contact</a>
+      </div>
+      <div class="footer-coded-by">
         <p>
-          <i
-            >For gig and advertising opportunities, begin your subject with
-            <strong>"Gig"</strong></i
-          >
+          <i class="fas fa-code"></i> with 💙 by Minh Nguyen &copy; 2020
         </p>
-        <div class="container">
-          <p>
-            <a href="mailto:ntm1406@gmail.com"
-              ><i class="fas fa-envelope-open"></i> ntm1406@gmail.com</a
-            >
-          </p>
-          <p>
-            <a href="#" target="_blank"
-              ><i class="fab fa-youtube"> YouTube</i></a
-            >
-          </p>
-          <p>
-            <a href="#" target="_blank"><i class="fab fa-dev"> Dev</i></a>
-          </p>
-          <p>
-            <a href="#" target="_blank"
-              ><i class="fab fa-twitter"> Twitter</i></a
-            >
-          </p>
-        </div>
-        <hr />
-      </section>
-      <footer>
-        <div class="footer-nav">
-          <a href="#landing-page" class="footer-nav-link">Home</a>
-          <a href="#about" class="footer-nav-link">About</a>
-          <a href="#services" class="footer-nav-link">Services</a>
-          <a href="projects" class="footer-nav-link">Projects</a>
-          <a href="#contact" class="footer-nav-link">Contact</a>
-        </div>
-        <div class="footer-coded-by">
-          <p>
-            <i class="fas fa-code"></i> with 💙 by Minh Nguyen &copy; 2020
-          </p>
-          <p>Built with pure HTML, CSS and JavaScript</p>
-        </div>
-        <div class="footer-social">
-          <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
-          <a href="#" target="_blank"><i class="fab fa-dev"></i></a>
-          <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
-        </div>
-      </footer>
-    </main>
-    <script src="main.js"></script>
-  </body>
+        <p>Built with pure HTML, CSS and JavaScript</p>
+      </div>
+    </footer>
+  </main>
+  <script src="main.js"></script>
+</body>
+
 </html>
